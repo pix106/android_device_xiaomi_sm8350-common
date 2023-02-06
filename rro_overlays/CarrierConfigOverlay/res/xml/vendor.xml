@@ -8,6 +8,9 @@
         <boolean name="hide_preferred_network_type_bool" value="false" />
         <!-- PA: Disable CDMA Choices to clean up settings -->
         <boolean name="show_cdma_choices_bool" value="false" />
+        <!-- PA: Allow VoLTE and WFC by default -->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_video_call_in_low_battery" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="false" />
         <boolean name="video_call_use_ext" value="true" />
