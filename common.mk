@@ -155,6 +155,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
+# DSP Volume Synchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
