@@ -12,6 +12,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_wfc_supports_wifi_only_bool" value="true" />
+        <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
         <boolean name="allow_video_call_in_low_battery" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="false" />
         <boolean name="video_call_use_ext" value="true" />
