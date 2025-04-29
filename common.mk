@@ -263,6 +263,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+# Lineage Health
+$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
+
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
