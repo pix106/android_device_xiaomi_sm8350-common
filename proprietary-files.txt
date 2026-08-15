@@ -716,11 +716,6 @@ vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 
-# WiFi Display (system) - from OOS 16
-system_ext/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so|6cec7924167ac39b136e84c955569f44b56415da
-system_ext/lib64/libdisplayconfig.system.qti.so|aa2f220b04a401362407f2fa3f4e115b779393f2
-system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|5a07365ee80503c61799267a4a87ff5952381bb2
-
 # WiFi Display (system) - from LA.QSSI.17.0.r1-06700-qssi.0
 system_ext/bin/wfdservice64|1c9e8784221485cf97f48fe318590611e899bffc
 system_ext/etc/init/wfdservice.rc|3dfd29a44f37c971b7707b6e47b2b601a9119d12|3dfd29a44f37c971b7707b6e47b2b601a9119d12
