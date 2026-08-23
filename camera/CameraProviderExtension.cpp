@@ -73,3 +73,14 @@ void setTorchModeExt(bool enabled) {
     int32_t strength = getTorchDefaultStrengthLevelExt();
     setTorchStrengthLevelExt(enabled ? strength : 0, enabled);
 }
+
+std::vector<std::pair<std::string, uint8_t>> getCaptureRequestU8OverridesExt(
+        const std::string& cameraId, const std::string& packageName) {
+    // MIUI Camera requests MFNR for the Venus telemacro sensor, but the
+    // proprietary camera stack does not provide an MFNR feature graph for it.
+    if (cameraId == "3" && packageName == "com.android.camera") {
+        return {{"xiaomi.mfnr.enabled", 0}};
+    }
+
+    return {};
+}
